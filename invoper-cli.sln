@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "invoper-cli", "invoper-cli\invoper-cli.csproj", "{0CB90D95-35AA-4C3E-9D21-08C76B79FA6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D413346-08BB-4691-BE64-10CD215937F7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		assets\config.json = assets\config.json
+		assets\es.json = assets\es.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB90D95-35AA-4C3E-9D21-08C76B79FA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB90D95-35AA-4C3E-9D21-08C76B79FA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB90D95-35AA-4C3E-9D21-08C76B79FA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB90D95-35AA-4C3E-9D21-08C76B79FA6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
