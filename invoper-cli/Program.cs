@@ -11,7 +11,9 @@ namespace invoper_cli
     {
         static void Main(string[] args)
         {
-            
+            Utilities utils = new Utilities();
+            utils.Init();
+            Console.ReadLine();
         }
     }
 }
