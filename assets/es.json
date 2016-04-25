@@ -1,0 +1,9 @@
+﻿{
+  "messages": {
+    "initialization": [
+      { "applicationName": "InvOpe - CLI" },
+      { "salutation": "Bienvenidos a la Interfaz de línea de comandos (CLI siglas en ingles)" },
+      {"instructions": "Para lista los comandos ejecute: invoper" }
+    ]
+  }
+}
