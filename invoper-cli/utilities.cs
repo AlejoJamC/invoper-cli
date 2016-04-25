@@ -23,5 +23,32 @@ namespace invoper_cli
                 Console.WriteLine("Configuración actual: \r\n Idioma: " + currentConfig.LanguageName + "\r\n");
             }
         }
+
+        /// <summary>
+        /// Find, open and read a JSON file.
+        /// </summary>
+        /// <param name="path">Path of the file using / at the end.</param>
+        /// <param name="file">Name of the file including .json extension</param>
+        public void LoadJSON(string path, string file)
+        {
+            string filePath = path + file;
+
+            using (StreamReader r = new StreamReader(filePath))
+            {
+                
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="path">Path of the file using / at the end.</param>
+        /// <param name="file">Name of the file including .json extension</param>
+        /// <param name="Entity">Name of the Entity to return</param>
+        public void LoadJSON(string path, string file, string Entity)
+        {
+            
+        }
+        
     }
 }
